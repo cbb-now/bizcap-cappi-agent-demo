@@ -7,15 +7,25 @@ export const CREATE_SESSION_ENDPOINT = "/api/create-session";
 
 export const STARTER_PROMPTS: StartScreenPrompt[] = [
   {
-    label: "What can you do?",
-    prompt: "What can you do?",
+    label: "Tell me about the Bizcap",
+    prompt: "Tell me about the Bizcap",
+    icon: "circle-question",
+  },
+  {
+    label: "I need a term loan for my business",
+    prompt: "I need a term loan for my business",
+    icon: "circle-question",
+  },
+  {
+    label: "I need line of credit for my business",
+    prompt: "I need line of credit for my business",
     icon: "circle-question",
   },
 ];
 
 export const PLACEHOLDER_INPUT = "Ask anything...";
 
-export const GREETING = "How can I help you today?";
+export const GREETING = "Hi, I am Cappi your Bizcap assistant";
 
 export const getThemeConfig = (theme: ColorScheme): ThemeOption => ({
   color: {
